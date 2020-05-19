@@ -2,7 +2,7 @@
 #version 330 core
 
 // ---- gllock required fields -----------------------------------------------------------------------------------------
-#define RATE 1.0
+#define RATE 3.0
 
 uniform float time;
 uniform float end;
@@ -11,7 +11,7 @@ uniform vec2 screenSize;
 // ---------------------------------------------------------------------------------------------------------------------
 
 #define MIN_SIZE 2.0f
-#define MAX_SIZE 18.0f
+#define MAX_SIZE 14.0f
 
 // Compute the relative distance to the circle, where < 0.0 is outside the feathered border, and > 1.0 is inside the feathered border.
 float ComputeCircle(vec2 pos, vec2 center, float radius, float feather) {

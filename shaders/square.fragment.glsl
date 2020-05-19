@@ -2,7 +2,7 @@
 #version 330 core
 
 // ---- gllock required fields -----------------------------------------------------------------------------------------
-#define RATE 1.0
+#define RATE 2.0
 
 uniform float time;
 uniform float end;
@@ -11,7 +11,7 @@ uniform vec2 screenSize;
 // ---------------------------------------------------------------------------------------------------------------------
 
 #define MIN_SIZE 2.0f
-#define MAX_SIZE 18.0f
+#define MAX_SIZE 14.0f
 
 #define USE_TILE_BORDER
 #define USE_ROUNDED_CORNERS
